@@ -24,7 +24,7 @@ Promise.any(promises)
     .then(result => {
         // Print the result to the output div
         var outputDiv = document.getElementById("output");
-        outputDiv.textContent = "First promise resolved with delay: " + result + " seconds";
+        outputDiv.textContent = "First promise resolved with delay: " + result ;
     })
     .catch(error => {
         console.error("All promises rejected:", error);
